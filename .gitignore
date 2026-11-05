@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Node / Frontend
+node_modules/
+frontend/node_modules/
+frontend/dist/
+.npm
+*.log
+
+# Sensitive Credentials & Keys (Never commit)
+.env
+keys/signing_key.pem
+
+# Storage runtime uploads (keep directories, ignore large binaries)
+storage/evidence/*.mp4
+storage/evidence/*.avi
+storage/reports/*.pdf
+!storage/evidence/.gitkeep
+!storage/reports/.gitkeep
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
